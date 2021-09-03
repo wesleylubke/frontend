@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+
+.box {
+    height: 853px;
+    width: 1280px;
+    background-image: url(image/fundo.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    border: 3px solid rgba(131, 149, 184, 0.63);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.13);
+}
+
+.espaco {
+    padding-top: 50px;
+}
+
+button {
+    font-size: 1.05em;
+    margin: 20px;
+    height: 30px;
+    width: 120px;
+    background-color: rgb(203, 234, 255);
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.192);
+}
+
+.margem {
+    margin: 0px 50px;
+}
