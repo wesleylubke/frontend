@@ -1,35 +1,43 @@
-    * {
-        margin: 0;
-    }
-    
-    body {
-        width: 2000px;
-        height: 2000px;
-    }
-    
-    .box {
-        width: 300px;
-        height: 300px;
-        padding: 1px;
-        border-style: double;
-    }
-    
-    .box2 {
-        width: 150px;
-        height: 150px;
-        margin: auto;
-        background-color: rgba(0, 87, 128, 0.192);
-        position: absolute;
-    }
-    
-    .caixa2 {
-        position: absolute;
-        right: 0;
-        top: 0%;
-    }
-    
-    .caixa3 {
-        position: fixed;
-        bottom: 0%;
-        left: calc(50% - 250px / 2);
-    }
+* {
+    margin: 0;
+}
+
+body {
+    width: 2000px;
+    height: 2000px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    padding: 1px;
+    border-style: double;
+}
+
+.box2 {
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    background-color: rgba(0, 87, 128, 0.192);
+    position: absolute;
+    left: calc(150px/2);
+    top: calc(150px/2)
+}
+
+.caixa2 {
+    position: absolute;
+    right: 0;
+    top: 0%;
+}
+
+.caixa3 {
+    position: fixed;
+    bottom: 0%;
+    left: calc(50% - 250px / 2);
+}
+
+p {
+    padding-top: 20px;
+}
