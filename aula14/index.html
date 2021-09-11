@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Confeitaria do Jack</title>
+</head>
+
+<body>
+    <section>
+        <h1>Confeitaria Napolitana</h1>
+        <h2>Especializada em bolos para casamentos</h2>
+        <fieldset>
+            <div>
+                <label for="name">Digite seu nome</label>
+                <input type="text" name="name" id="name" size="30">
+                <label for="phone">Telefone(ddd)</label>
+                <input type="text" name="ddd" id="phone" size="2" minlength="2" maxlength="2">
+                <input type="text" name="phone" id="phone" size="9" minlength="9" maxlength="9">
+                <input type="checkbox" id="whatsapp">
+                <label for="whatsapp">Este telefone tem whatsapp</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="weight">Peso do bolo (kg)</label>
+                <select name="weight" id="weight">
+                    <option value="0"></option>
+                    <option value="1">2</option>
+                    <option value="2">4</option>
+                    <option value="3">8</option>
+                    <option value="4">10</option>
+                </select>
+                <label for="size">Quantos andares</label>
+                <select name="size" id="size">
+                    <option value="0"></option>
+                    <option value="1">Um andar</option>
+                    <option value="2">Dois andares</option>
+                    <option value="3">Três andares</option>
+                </select>
+                <label for="tipo">Modelo</label>
+                <input type="radio" name="tipo" id="trad"> <label for="trad">Tradicional</label>
+                <input type="radio" name="tipo" id="pers"> <label for="pers">Personalizado</label>
+            </div>
+            <div>
+                <label for="height">Altura das camadas</label>
+                <select name="height" id="height">
+                    <option value="0"></option>
+                    <option value="1">8cm</option>
+                    <option value="2">10cm</option>
+                    <option value="3">12cm</option>
+                </select>
+                <label for="flavor">Sabor</label>
+                <select name="flavor" id="flavor">
+                    <option value=""></option>
+                    <option value="1">Morango</option>
+                    <option value="2">Chocolate</option>
+                    <option value="3">Dois Amores</option>
+                    <option value="4">Frutas Tropicais</option>
+                </select>
+                <label for="otherflavor">Outro sabor:</label>
+                <input type="text" name="otherflavor" id="otherflavor" size="20">
+                <div>
+                    <label id="moreinfolabel" for="moreinfo">Observações</label>
+                    <textarea name="moreinfo" id="moreinfo" cols="30" rows="2"></textarea>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="setto">Data de entrega:</label>
+                <input type="date" id="setto">
+                <label for="payment">Forma de Pagamento</label>
+                <input type="radio" name="payment" id="dinheiro">
+                <label for="dinheiro">Dinheiro</label>
+                <input type="radio" name="payment" id="pix">
+                <label for="pix">Pix</label>
+                <input type="radio" name="payment" id="cartao">
+                <label for="cartao">Cartão</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <input type="radio" name="entrega" id="entregar">
+                <label for="entregar">Entregue em minha casa</label>
+                <input type="radio" name="entrega" id="retirar">
+                <label for="retirar">Vou retirar no balcão</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="address">Endereço</label>
+                <input type="text" name="address" id="address" size="30">
+                <label for="number">Nº</label>
+                <input type="text" name="number" id="number" size="5" maxlength="5">
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro" id="bairro" size="20" maxlength="20">
+                <label for="city">Cidade</label>
+                <select name="city" id="city">
+                        <option value="1">Joinville</option>
+                        <option value="2">Araquari</option>
+                        <option value="3">Garuva</option>
+                        <option value="4">Jaraguá do Sul</option>
+                        <option value="5">São Francisco</option>
+                    </select>
+            </div>
+        </fieldset>
+        <div><button type="submit">Enviar</button> <button type="reset">Limpar campos</button></div>
+    </section>
+</body>
+
+</html>
