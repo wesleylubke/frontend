@@ -97,7 +97,4 @@
     option:checked {
         transform: scale(2);
     }
-    
-    input[type="radio"]:checked {
-        transform: scale(1.2);
-    }
+   
