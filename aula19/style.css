@@ -1,0 +1,11 @@
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin: 50px 5%;
+    }
+    
+    img {
+        width: 300px;
+    }
