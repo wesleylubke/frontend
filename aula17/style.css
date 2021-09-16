@@ -1,0 +1,52 @@
+* {
+    margin-bottom: 80px;
+}
+
+
+/* Usando Keframe*/
+
+@keyframes ball {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        transform: translateX(30px);
+        opacity: 100%;
+    }
+}
+
+.bola {
+    width: 100px;
+    opacity: 0%;
+    animation: ball 2s infinite;
+    display: block;
+}
+
+
+/*Usando Transform*/
+
+.smile {
+    width: 100px;
+    transition-duration: 2s;
+}
+
+.smile:hover {
+    transform: rotate(400deg) translateX(100px)
+}
+
+
+/*Usando Transition*/
+
+button {
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    transition-duration: 2s;
+    display: block;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
