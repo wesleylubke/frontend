@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Visa Turismo</title>
+</head>
+<header>
+
+    <ul class="main-menu">
+        <img id="img-logo" src="http://traveltur.com.br/wp-content/uploads/2017/08/logo-1.png" alt="">
+        <li>
+            <a href="#">Passagens Aéreas</a>
+        </li>
+        <li>
+            <a href="#">Hotéis</a>
+        </li>
+        <li>
+            <a href="#">Carros</a>
+        </li>
+        <li>
+            <a href="#">Seguros</a>
+        </li>
+        <li>
+            <a href="#">Atendimento</a>
+        </li>
+
+        <a href="#"><button>Contato</button></a>
+    </ul>
+</header>
+
+<body>
+    <form action="">
+        <section>
+            <h1>Que tal tirar umas férias?</h1>
+            <h2>Conheça as melhores praias de Santa Catarina e programe seus melhores dias do ano</h2>
+            <fieldset>
+                <div><label for="nome">Nome Completo</label>
+                    <input type="text" name="nome" id="nome" maxlength="100">
+                    <label for="fone">Telefone</label>
+                    <input type="number" name="fone" id="fone">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <label for="nascimento">Data de Nascimento</label>
+                    <input type="date" name="nascimento" id="nascimento">
+                    <label for="maioridade">Data de Nascimento</label>
+                    <input type="radio" name="maioridade" id="maior">
+                    <label for="maior">Maior de 18 anos</label>
+                    <input type="radio" name="maioridade" id="menor">
+                    <label for="menor">Menor de 18 anos</label>
+                </div>
+                <div>
+                    <label for="destino">Destino</label>
+                    <select name="destino" id="destino">
+                    <option value="1">Balneário Camboriú</option>
+                    <option value="2">São Francisco</option>
+                    <option value="3">Itapema</option>
+                    <option value="4">Florianópolis</option>
+                    <option value="5">Barra Velha</option>
+                </select>
+
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <label for="interesses">Quais são seus interesses na cidade?</label>
+                    <label for="turismo">Turismo</label>
+                    <input type="checkbox" name="turismo" id="turismo">
+                    <label for="residir">Residir</label>
+                    <input type="checkbox" name="residir" id="residir">
+                    <label for="estudar">Estudar</label>
+                    <input type="checkbox" name="estudar" id="estudar">
+                </div>
+            </fieldset>
+            <div class="centered"><button type="submit">Enviar</button> <button type="reset">Limpar campos</button></div>
+        </section>
+    </form>
+</body>
+
+</html>
